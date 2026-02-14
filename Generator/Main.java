@@ -7,6 +7,9 @@ import java.util.Map;
 import java.util.Set;
 
 public class Main {
+    static final int ROWS = 4;
+    static final int COLS = 4;
+
     static Map<Tile, Integer> originalTiles;
     static Tile mountainRangeTile;
     static Tile straightRiverTile;
@@ -29,8 +32,8 @@ public class Main {
         initializeVariables();
 
         Set<Board> dummyBoards = new HashSet<>();
-        // Board.createValidBoards(dummyBoards, 4, 4);
-        Board.setUpAmonHen(dummyBoards);
+        Board.createValidBoards(dummyBoards, ROWS, COLS);
+        // Board.setUpAmonHen(dummyBoards);
         // Board.setUpAmonSun(dummyBoards);
 
         // TODO: Manage EOF in JSON methods
