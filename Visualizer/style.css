@@ -1,0 +1,22 @@
+body {
+	font-family: sans-serif;
+	background: #222;
+	color: #fff;
+	text-align: center;
+}
+
+#board {
+	display: grid;
+	gap: 2px;
+	justify-content: center;
+	margin: 20px auto;
+}
+
+.tile {
+	width: 96px;
+	height: 96px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	transform-origin: center;
+}
