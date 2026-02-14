@@ -114,7 +114,7 @@ the desired output file to:
 
     validBoards.json
 
-and place it in the project root before running the Visualizer.
+and place it in the module root before running the Visualizer.
 
 ---
 
