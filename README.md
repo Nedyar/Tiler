@@ -104,10 +104,6 @@ The Visualizer expects:
 
 - A file named exactly:
 
-```{=html}
-<!-- -->
-```
-
     validBoards.json
 
 - The file must be placed in the **root directory of the Visualizer module**
